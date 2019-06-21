@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "ngHackerNews"
+  "defaultProject": "ngHackerNews",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
